@@ -17,11 +17,16 @@
   padding: 30px 0;
   /* background: crimson; */
   font-size: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
 }
 .navbar .sticky {
-  padding: 30px 0;
-  color: crimson;
+  padding: 15px 0;
+  background: crimson;
 }
+.navbar .sticky .logo a span {
+  color: #fff;
+}
+
 .navbar .max-width {
   display: flex;
   align-items: center;
